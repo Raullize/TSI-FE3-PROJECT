@@ -1,0 +1,29 @@
+[
+  {
+    "marca": "Fiat",
+    "modelo": "Mobi Like 1.0",
+    "ano": 2022,
+    "foto": "images/default.png",
+    "cor": "Branco",
+    "km": 15000,
+    "preco": 48000
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Onix 1.0 Turbo",
+    "ano": 2023,
+    "foto": "images/default.png",
+    "cor": "Prata",
+    "km": 5000,
+    "preco": 78000
+  },
+  {
+    "marca": "Hyundai",
+    "modelo": "HB20 Sense 1.0",
+    "ano": 2022,
+    "foto": "images/default.png",
+    "cor": "Preto",
+    "km": 22000,
+    "preco": 62000
+  }
+]
