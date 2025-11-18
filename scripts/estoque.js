@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.className = 'veiculo-card';
 
             card.innerHTML = `
-                <img src="${veiculo.foto}" alt="${veiculo.marca} ${veiculo.modelo}">
+                <img src="../${veiculo.foto}" alt="${veiculo.marca} ${veiculo.modelo}">
                 <h3>${veiculo.marca} ${veiculo.modelo}</h3>
                 <p>Ano: ${veiculo.ano}</p>
                 <p>Cor: ${veiculo.cor}</p>
