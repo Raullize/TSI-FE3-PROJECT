@@ -25,5 +25,14 @@
     "cor": "Preto",
     "km": 22000,
     "preco": 62000
+  },
+  {
+    "marca": "Fiat",
+    "modelo": "Uno Vivace 1.0",
+    "ano": 2014,
+    "foto": "images/default.png",
+    "cor": "Vermelho",
+    "km": 85000,
+    "preco": 32193
   }
 ]
