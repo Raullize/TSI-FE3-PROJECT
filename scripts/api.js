@@ -17,24 +17,37 @@ class FipeAPI {
         }
     }
 
-    getMarcasComAtraso() {
-        return new Promise((resolve, reject) => {
-            setTimeout(async () => {
-                try {
-                    const marcas = await this.getMarcas();
-                    resolve(marcas);
-                } catch (error) {
-                    reject(error);
-                }
-            }, 1500);
-        });
-    }
-
     async getModelos(marcaId) {
         try {
             const response = await fetch(`${this.baseURL}/marcas/${marcaId}/modelos`);
             if (!response.ok) {
                 throw new Error('Erro ao buscar os modelos.');
+            }
+            return await response.json();
+        } catch (error) {
+            console.error(error);
+            throw error;
+        }
+    }
+
+    async getAnos(marcaId, modeloId) {
+        try {
+            const response = await fetch(`${this.baseURL}/marcas/${marcaId}/modelos/${modeloId}/anos`);
+            if (!response.ok) {
+                throw new Error('Erro ao buscar os anos.');
+            }
+            return await response.json();
+        } catch (error) {
+            console.error(error);
+            throw error;
+        }
+    }
+
+    async getValor(marcaId, modeloId, anoId) {
+        try {
+            const response = await fetch(`${this.baseURL}/marcas/${marcaId}/modelos/${modeloId}/anos/${anoId}`);
+            if (!response.ok) {
+                throw new Error('Erro ao buscar o valor.');
             }
             return await response.json();
         } catch (error) {
