@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const app = document.getElementById('app');
 
     function carregarEstoque() {
-        fetch('estoque.json')
+        fetch('../data/estoque.json')
             .then(response => response.json())
             .then(data => {
                 renderizarEstoque(data);
