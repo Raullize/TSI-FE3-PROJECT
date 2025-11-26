@@ -61,11 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
             app.innerHTML = `
                 <h2>Resultado da Consulta</h2>
                 <div class="valor-resultado">
-                    <p><strong>Marca:</strong> ${veiculo.marca}</p>
-                    <p><strong>Modelo:</strong> ${veiculo.modelo}</p>
-                    <p><strong>Ano:</strong> ${veiculo.ano}</p>
-                    <p><strong>Combustível:</strong> ${veiculo.combustivel}</p>
-                    <h3>Valor FIPE: ${veiculo.valor}</h3>
+                    <p><strong>Descrição:</strong> ${veiculo.getDescricao()}</p>
+                    <p><strong>Valor FIPE:</strong> ${veiculo.valor}</p>
                 </div>
             `;
 
@@ -102,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
             app.prepend(backButton);
 
         } catch (error) {
-            app.innerHTML = '<p>Erro ao carregar os anos. Tente novamente mais tarde.</p>';
+            app.innerHTML = '<p>Erro ao carregar os anos.</p>';
         }
     }
 
