@@ -49,7 +49,8 @@ class FipeAPI {
             if (!response.ok) {
                 throw new Error('Erro ao buscar o valor.');
             }
-            return await response.json();
+            const data = await response.json();
+            return new Carro(data.Marca, data.Modelo, data.AnoModelo, data.Combustivel, data.Valor);
         } catch (error) {
             console.error(error);
             throw error;

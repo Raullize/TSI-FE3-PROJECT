@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(error => {
                 app.innerHTML = `<p>Erro ao carregar as marcas: ${error.message}</p>`;
+            })
+            .finally(() => {
+                console.log('Tentativa de carregar marcas finalizada.');
             });
     }
 
@@ -58,10 +61,11 @@ document.addEventListener('DOMContentLoaded', () => {
             app.innerHTML = `
                 <h2>Resultado da Consulta</h2>
                 <div class="valor-resultado">
-                    <p><strong>Marca:</strong> ${veiculo.Marca}</p>
-                    <p><strong>Modelo:</strong> ${veiculo.Modelo}</p>
-                    <p><strong>Ano:</strong> ${veiculo.AnoModelo}</p>
-                    <h3>Valor FIPE: ${veiculo.Valor}</h3>
+                    <p><strong>Marca:</strong> ${veiculo.marca}</p>
+                    <p><strong>Modelo:</strong> ${veiculo.modelo}</p>
+                    <p><strong>Ano:</strong> ${veiculo.ano}</p>
+                    <p><strong>Combustível:</strong> ${veiculo.combustivel}</p>
+                    <h3>Valor FIPE: ${veiculo.valor}</h3>
                 </div>
             `;
 
@@ -72,6 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         } catch (error) {
             app.innerHTML = '<p>Erro ao carregar o valor. Tente novamente mais tarde.</p>';
+        } finally {
+             console.log('Consulta de valor finalizada.');
         }
     }
 
