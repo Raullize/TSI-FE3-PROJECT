@@ -137,7 +137,6 @@ button {
     background-color: #0056b3;
 }
 
-/* Estilo para o resultado da consulta */
 .estoque-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
