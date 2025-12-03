@@ -1,3 +1,8 @@
+function Marca(nome, valor) {
+    this.nome = nome;
+    this.valor = valor;
+}
+
 function Veiculo(marca, modelo, ano, valor) {
     this.marca = marca;
     this.modelo = modelo;
