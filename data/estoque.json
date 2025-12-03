@@ -6,7 +6,8 @@
     "foto": "images/default.png",
     "cor": "Branco",
     "km": 15000,
-    "preco": 48000
+    "preco": 48000,
+    "combustivel": "Flex"
   },
   {
     "marca": "Chevrolet",
@@ -15,7 +16,8 @@
     "foto": "images/default.png",
     "cor": "Prata",
     "km": 5000,
-    "preco": 78000
+    "preco": 78000,
+    "combustivel": "Flex"
   },
   {
     "marca": "Hyundai",
@@ -24,7 +26,8 @@
     "foto": "images/default.png",
     "cor": "Preto",
     "km": 22000,
-    "preco": 62000
+    "preco": 62000,
+    "combustivel": "Flex"
   },
   {
     "marca": "Fiat",
@@ -33,6 +36,7 @@
     "foto": "images/default.png",
     "cor": "Vermelho",
     "km": 85000,
-    "preco": 32193
+    "preco": 32193,
+    "combustivel": "Flex"
   }
 ]
