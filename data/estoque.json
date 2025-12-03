@@ -36,7 +36,67 @@
     "foto": "images/default.png",
     "cor": "Vermelho",
     "km": 85000,
-    "preco": 32193,
+    "preco": 32000,
+    "combustivel": "Flex"
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "Gol 1.6 MSI",
+    "ano": 2021,
+    "foto": "images/default.png",
+    "cor": "Cinza",
+    "km": 31000,
+    "preco": 55000,
+    "combustivel": "Flex"
+  },
+  {
+    "marca": "Renault",
+    "modelo": "Kwid Zen 1.0",
+    "ano": 2020,
+    "foto": "images/default.png",
+    "cor": "Laranja",
+    "km": 42000,
+    "preco": 41000,
+    "combustivel": "Flex"
+  },
+  {
+    "marca": "Ford",
+    "modelo": "Ka SE 1.0",
+    "ano": 2019,
+    "foto": "images/default.png",
+    "cor": "Azul",
+    "km": 58000,
+    "preco": 47000,
+    "combustivel": "Flex"
+  },
+  {
+    "marca": "Toyota",
+    "modelo": "Yaris XL Live",
+    "ano": 2022,
+    "foto": "images/default.png",
+    "cor": "Branco",
+    "km": 12000,
+    "preco": 82000,
+    "combustivel": "Flex"
+  },
+  {
+    "marca": "Honda",
+    "modelo": "Fit LX 1.5",
+    "ano": 2018,
+    "foto": "images/default.png",
+    "cor": "Prata",
+    "km": 68000,
+    "preco": 71000,
+    "combustivel": "Flex"
+  },
+  {
+    "marca": "Nissan",
+    "modelo": "Versa V-Drive 1.6",
+    "ano": 2021,
+    "foto": "images/default.png",
+    "cor": "Preto",
+    "km": 25000,
+    "preco": 69000,
     "combustivel": "Flex"
   }
 ]
