@@ -25,7 +25,6 @@ function Carro(marca, modelo, ano, combustivel, valor) {
 Carro.prototype = Object.create(Veiculo.prototype);
 Carro.prototype.constructor = Carro;
 
-// Sobrescrevendo o método do pai (Polimorfismo)
 Carro.prototype.getDescricao = function() {
     const descricaoBase = `${this.marca} ${this.modelo} (${this.ano}) - ${this.valor}`;
     return `${descricaoBase} - ${this.combustivel}`;
